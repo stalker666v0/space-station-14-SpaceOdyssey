@@ -91,6 +91,33 @@
   - type: Item
     sprite: Objects/Consumable/Drinks/cola.rsi
 
+# AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+- type: entity
+  parent: DrinkCanBaseFull
+  id: DarkSodaCan
+  name: Dark soda
+  description: Refreshing drink from "HIS" company.
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 30
+        reagents:
+        - ReagentId: Cola
+          Quantity: 30
+  - type: Tag
+    tags:
+    - Cola
+    - DrinkCan
+    - Recyclable
+  - type: Sprite
+    sprite: Objects/Consumable/Drinks/darksoda.rsi
+  - type: Item
+    sprite: Objects/Consumable/Drinks/darksoda.rsi
+
+# AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
 # created when taking apart an ied
 - type: entity
   parent: DrinkColaCan
