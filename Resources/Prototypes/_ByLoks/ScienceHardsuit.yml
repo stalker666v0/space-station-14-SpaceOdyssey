@@ -2,8 +2,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterScienceHardsuit
-  name: science hardsuit
-  description: A special hardsuit for work in a hazardous environment. Designed specifically for the station's scientific department.
+  name: научный скафандр #science hardsuit
+  description: Специальный скафандр для работы в опасной среде. #A special hardsuit for work in a hazardous environment. Designed specifically for the station's scientific department.
   components:
   - type: Sprite
     sprite: _ByLoks/science.rsi
@@ -40,8 +40,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadScienceHardsuit
-  name: science hardsuit helmet
-  description: Lightweight hardsuit helmet that doesn't restrict your head movements.
+  name: шлем научного скафандра #science hardsuit helmet
+  description: Легкий жесткий шлем, не ограничивающий движения головы. #Lightweight hardsuit helmet that doesn't restrict your head movements.
   components:
   - type: Sprite
     sprite: _ByLoks/sciencehead.rsi
