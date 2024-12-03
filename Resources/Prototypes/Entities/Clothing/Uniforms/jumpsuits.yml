@@ -263,6 +263,21 @@
   - type: Clothing
     sprite: Clothing/Uniforms/Jumpsuit/cmo.rsi
 
+#AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+- type: entity
+  parent: [ClothingUniformBase, BaseCommandContraband]
+  id: ClothingUniformJumpsuitCMOSnowflake
+  name: the chief doctor's jumpsuit with snowflakes
+  description: It's a jumpsuit worn by those with the experience to be Chief Medical Officer. It provides minor biological protection. Wait, there are snowflakes on it!
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/cmo_snowflake.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/cmo_snowflake.rsi
+
+#AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
 - type: entity
   parent: [ClothingUniformBase, BaseCommandContraband]
   id: ClothingUniformJumpsuitCMOTurtle

@@ -119,6 +119,32 @@
   - type: Clothing
     sprite: Clothing/Uniforms/Jumpskirt/cmo.rsi
 
+# AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+- type: entity
+  parent: [ClothingUniformSkirtBase, BaseCommandContraband]
+  id: ClothingUniformJumpskirtCMOSnowflake
+  name: the chief doctor's jumpsuit with snowflakes
+  description: This is a sports skirt worn by those who have experience working as a chief medical officer. It provides little biological protection. Wait, she's with snowflakes!
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpskirt/cmo_snowflake.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpskirt/cmo_snowflake.rsi
+
+- type: entity
+  parent: [ClothingUniformSkirtBase, BaseCommandContraband]
+  id: ClothingUniformJumpskirtHIS
+  name: HIS jumpskirt
+  description: Women's office work suit of HIS Corporation
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpskirt/his.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpskirt/his.rsi
+
+# AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
 - type: entity
   parent: [ClothingUniformSkirtBase, BaseCommandContraband]
   id: ClothingUniformJumpskirtCMOTurtle

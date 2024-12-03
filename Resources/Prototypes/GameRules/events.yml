@@ -23,6 +23,7 @@
     - id: SpiderClownSpawn
     - id: SpiderSpawn
     - id: VentClog
+    - id: GiftsSpawn
 
 - type: entityTable
   id: BasicAntagEventsTable
@@ -559,3 +560,21 @@
     maxOccurrences: 1 # this event has diminishing returns on interesting-ness, so we cap it
     weight: 5
   - type: MobReplacementRule
+
+
+- type: entity
+  id: GiftsSpawn
+  parent: BaseStationEventShortDelay
+  components:
+  - type: StationEvent
+    startAnnouncement: station-event-gifts-announcement
+    startAudio:
+      path: /Audio/Announcements/attention.ogg
+    earliestStart: 2
+    minimumPlayers: 1
+    weight: 5
+    duration: 60
+  - type: VentCrittersRule
+    entries:
+    - id: PresentRandom
+      prob: 0.5

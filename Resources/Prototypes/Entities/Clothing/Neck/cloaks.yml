@@ -115,6 +115,31 @@
   - type: StealTarget
     stealGroup: HeadCloak
 
+#AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+- type: entity
+  parent: [ClothingNeckBase, BaseCommandContraband]
+  id: ClothingNeckCloakUnknownHeadOfDepartment
+  name: The cloak of the unknown Head of the department
+  description: A cloak for an unknown head.
+  components:
+  - type: Sprite
+    sprite: Clothing/Neck/Cloaks/stalkercloak.rsi
+  - type: StealTarget
+    stealGroup: HeadCloak
+
+- type: entity
+  parent: [ClothingNeckBase, BaseCommandContraband]
+  id: ClothingCloakCmoSnowflake
+  name: chief medical officer's cloak with snowflakes
+  description: A sterile blue cloak with a green cross, radiating with a sense of duty and willingness to help others. Wait, there are snowflakes on it!
+  components:
+  - type: Sprite
+    sprite: Clothing/Neck/Cloaks/cmosnowflake.rsi
+  - type: StealTarget
+    stealGroup: HeadCloak
+
+#AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakAdmin

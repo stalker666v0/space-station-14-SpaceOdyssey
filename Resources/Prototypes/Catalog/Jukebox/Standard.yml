@@ -39,3 +39,22 @@
   name: PigeonBeans - Sunset
   path:
     path: /Audio/Jukebox/sunset.ogg
+
+- type: jukebox
+  id: SnowStorm
+  name: go_stalker_666 - Snowstorm
+  path:
+    path: /Audio/Jukebox/снежная-буря.ogg
+
+- type: jukebox
+  id: DepthsOcean
+  name: go_stalker_666 - Depths ocean
+  path:
+    path: /Audio/Jukebox/depths-of-the-ocean.ogg
+
+- type: jukebox
+  id: NewYerarCosmic
+  name: go_stalker_666 - New year's cosmic
+  path:
+    path: /Audio/Jukebox/new-year-cosmic.ogg
+
