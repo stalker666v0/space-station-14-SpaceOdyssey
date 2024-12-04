@@ -57,6 +57,11 @@
     neck: ClothingNeckCloakHos
 
 - type: loadout
+  id: ClothingNeck1984medal
+  equipment:
+    neck: ClothingNeck1984medal
+
+- type: loadout
   id: HeadofSecurityMantle
   equipment:
     neck: ClothingNeckMantleHOS
