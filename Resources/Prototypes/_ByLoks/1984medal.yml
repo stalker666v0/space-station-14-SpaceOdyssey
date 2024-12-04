@@ -1,0 +1,13 @@
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeck1984medal
+  name: медаль 1984
+  description: Даётся только самым сильным!
+  components:
+  - type: Sprite
+    sprite: _ByLoks/1984.rsi
+  - type: Clothing
+    sprite: _ByLoks/1984.rsi
+  - type: Tag
+    tags:
+      - Medal
